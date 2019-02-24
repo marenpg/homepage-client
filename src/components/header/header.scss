@@ -1,0 +1,31 @@
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url('../../shared/coding.jpg');
+    min-height: 100%;
+
+    @media screen and (max-width: 1600px) {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+  }
+
+  
+.bg--light{
+    min-height: 400px;
+    width: 100%;
+    background: #bbb;
+}
+  
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+  
+ 
